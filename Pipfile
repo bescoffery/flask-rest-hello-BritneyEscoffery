@@ -24,6 +24,7 @@ eralchemy2 = "*"
 python_version = "3.13"
 
 [scripts]
+reset_db = "bash ./docs/assets/reset_migrations.bash"
 start="flask run -p 3000 -h 0.0.0.0"
 init="flask db init"
 migrate="flask db migrate"
